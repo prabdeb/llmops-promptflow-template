@@ -10,6 +10,9 @@ outputs:
   evidence:
     type: string
     reference: ${convert_to_dict.output.evidence}
+  llm_response:
+    type: string
+    reference: ${classify_with_llm.output}
 nodes:
 - name: fetch_text_content_from_url
   type: python
