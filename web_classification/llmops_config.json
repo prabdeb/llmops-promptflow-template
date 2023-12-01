@@ -1,0 +1,22 @@
+{
+    "envs":[
+                {
+                    "ENV_NAME": "pr",
+                    "RUNTIME_NAME": "prdebmladsdemo",
+                    "KEYVAULT_NAME": "mladsdemo3389844513",
+                    "RESOURCE_GROUP_NAME": "mlads-demo",
+                    "WORKSPACE_NAME": "mladsdemo",
+                    "STANDARD_FLOW_PATH": "flows/experiment",
+                    "EVALUATION_FLOW_PATH": "flows/evaluation"
+                },
+                {
+                    "ENV_NAME": "dev",
+                    "RUNTIME_NAME": "prdebmladsdemo",
+                    "KEYVAULT_NAME": "mladsdemo3389844513",
+                    "RESOURCE_GROUP_NAME": "mlads-demo",
+                    "WORKSPACE_NAME": "mladsdemo",
+                    "STANDARD_FLOW_PATH": "flows/experiment",
+                    "EVALUATION_FLOW_PATH": "flows/evaluation, flows/evaluation_adv"
+                }
+            ]
+        }
